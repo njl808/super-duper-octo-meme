@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEO3 Prompt Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="container">
+                <div class="header-content">
+                    <h1><i class="fas fa-video"></i>VEO3 Prompt Generator</h1>
+                    <div class="header-info">
+                        <span class="character-count">@CardiffAirportTV</span>
+                    </div>
+                    <div class="header-actions">
+                        <button class="btn btn--outline btn--sm" id="loadProjectBtn">
+                            <i class="fas fa-upload"></i> Load Project
+                        </button>
+                        <input type="file" id="loadProjectInput" accept=".json" style="display: none;">
+                        <button class="btn btn--outline btn--sm" id="exportBtn">
+                            <i class="fas fa-download"></i> Export Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Navigation -->
+        <nav class="main-nav">
+            <div class="container">
+                <div class="nav-tabs">
+                    <button class="nav-tab active" data-tab="dashboard">
+                        <i class="fas fa-home"></i> Dashboard
+                    </button>
+                    <button class="nav-tab" data-tab="characters">
+                        <i class="fas fa-users"></i> Characters <span class="tab-badge">20</span>
+                    </button>
+                    <button class="nav-tab" data-tab="scenes">
+                        <i class="fas fa-map-marker-alt"></i> Scenes
+                    </button>
+                    <button class="nav-tab" data-tab="dialogue">
+                        <i class="fas fa-comments"></i> Dialogue
+                    </button>
+                    <button class="nav-tab" data-tab="camera">
+                        <i class="fas fa-film"></i> Camera
+                    </button>
+                    <button class="nav-tab" data-tab="generator">
+                        <i class="fas fa-magic"></i> Generate
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <!-- Dashboard Tab -->
+                <div class="tab-content active" id="dashboard">
+                    <div class="dashboard-header">
+                        <h2>VEO3 Prompt Production Workflow</h2>
+                        <p>Professional broadcast tool to create 8 sec veo3 clips</p>
+                    </div>
+
+                    <div class="stats-overview">
+                        <div class="stat-card">
+                            <div class="stat-number" id="totalCharacters">20</div>
+                            <div class="stat-label">Characters Available</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" id="selectedCharacters">0</div>
+                            <div class="stat-label">Characters Selected</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" id="totalScenes">5</div>
+                            <div class="stat-label">Airport Locations</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" id="dialogueLines">0</div>
+                            <div class="stat-label">Dialogue Lines Ready</div>
+                        </div>
+                    </div>
+
+                    <div class="workflow-cards">
+                        <div class="card workflow-card" data-step="characters">
+                            <div class="card__body">
+                                <div class="workflow-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <h3>Character Management</h3>
+                                <p>Browse all characters with detailed Welsh personalities, voices, and airport roles. Support for multiple character selection and ensemble scenes.</p>
+                                <div class="workflow-status" id="character-status">
+                                    <i class="fas fa-circle"></i> Not Started
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card workflow-card" data-step="scenes">
+                            <div class="card__body">
+                                <div class="workflow-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <h3>Scene Management</h3>
+                                <p>Choose from authentic Cardiff Airport locations with atmospheric details and character-scene compatibility.</p>
+                                <div class="workflow-status" id="scene-status">
+                                    <i class="fas fa-circle"></i> Not Started
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card workflow-card" data-step="dialogue">
+                            <div class="card__body">
+                                <div class="workflow-icon">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <h3>Dialogue & Voice</h3>
+                                <p>Character-specific dialogue with Welsh accent specifications and multi-character conversation support.</p>
+                                <div class="workflow-status" id="dialogue-status">
+                                    <i class="fas fa-circle"></i> Not Started
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card workflow-card" data-step="camera">
+                            <div class="card__body">
+                                <div class="workflow-icon">
+                                    <i class="fas fa-film"></i>
+                                </div>
+                                <h3>Camera Sequences</h3>
+                                <p>Professional cinematography with multi-character scene support and broadcast-quality specifications.</p>
+                                <div class="workflow-status" id="camera-status">
+                                    <i class="fas fa-circle"></i> Not Started
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card workflow-card" data-step="generator">
+                            <div class="card__body">
+                                <div class="workflow-icon">
+                                    <i class="fas fa-magic"></i>
+                                </div>
+                                <h3>VEO3 Generator</h3>
+                                <p>Generate complex 8-second VEO3 prompts with ensemble casting and professional broadcast specifications.</p>
+                                <div class="workflow-status" id="generator-status">
+                                    <i class="fas fa-circle"></i> Not Started
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Characters Tab -->
+                <div class="tab-content" id="characters">
+                    <div class="section-header">
+                        <div class="header-left">
+                            <h2>Character Management</h2>
+                            <p>Complete roster of 20 Cardiff Airport personalities</p>
+                        </div>
+                        <div class="section-actions">
+                            <div class="character-filters">
+                                <select class="form-control" id="categoryFilter">
+                                    <option value="">All Categories</option>
+                                    <option value="staff">Airport Staff</option>
+                                    <option value="traveler">Travelers</option>
+                                </select>
+                                <input type="text" class="form-control" id="characterSearch" placeholder="Search characters...">
+                            </div>
+                            <button class="btn btn--secondary" id="selectAllBtn">
+                                <i class="fas fa-check-double"></i> Select All
+                            </button>
+                            <button class="btn btn--outline" id="clearSelectionBtn">
+                                <i class="fas fa-times"></i> Clear
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="character-layout">
+                        <div class="character-browser">
+                            <div class="selected-summary">
+                                <h4>Selected Characters <span id="selectionCount">(0)</span></h4>
+                                <div class="selected-characters" id="selectedCharacters">
+                                    <p class="text-secondary">No characters selected</p>
+                                </div>
+                            </div>
+
+                            <div class="character-gallery" id="characterGallery">
+                                <!-- Characters will be populated by JavaScript -->
+                            </div>
+                        </div>
+
+                        <div class="character-details" id="characterDetails">
+                            <div class="character-tabs">
+                                <button class="character-tab active" data-detail="description">Description</button>
+                                <button class="character-tab" data-detail="voice">Voice Profile</button>
+                                <button class="character-tab" data-detail="scenes">Scenes</button>
+                                <button class="character-tab" data-detail="dialogue">Sample Dialogue</button>
+                            </div>
+
+                            <div class="character-detail-content">
+                                <p class="text-secondary">Select a character to view detailed description</p>
+                                <div class="detail-panel active" id="description-panel"></div>
+                                <div class="detail-panel" id="voice-panel"></div>
+                                <div class="detail-panel" id="scenes-panel"></div>
+                                <div class="detail-panel" id="dialogue-panel"></div>
+                            </div>
+                            <div class="character-details-actions">
+                                <button class="btn btn--primary hidden" id="editCharacterBtn">
+                                    <i class="fas fa-edit"></i> Edit Character
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenes Tab -->
+                <div class="tab-content" id="scenes">
+                    <div class="section-header">
+                        <h2>Scene Management</h2>
+                        <div class="section-actions">
+                            <button class="btn btn--secondary" id="compatibilityCheck">
+                                <i class="fas fa-search"></i> Check Compatibility
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="scene-layout">
+                        <div class="scene-grid" id="sceneGrid">
+                            <!-- Scenes will be populated by JavaScript -->
+                        </div>
+
+                        <div class="scene-details" id="sceneDetails">
+                            <h4>Scene Description</h4>
+                            <div class="scene-description-content">
+                                <p class="text-secondary">Select a scene to view detailed atmospheric description</p>
+                            </div>
+
+                            <div class="scene-compatibility" id="sceneCompatibility">
+                                <h5>Character Compatibility</h5>
+                                <div class="compatibility-list">
+                                    <p class="text-secondary">Select characters and a scene to check compatibility</p>
+                                </div>
+                            </div>
+                            <div class="scene-details-actions">
+                                <button class="btn btn--primary hidden" id="editSceneBtn">
+                                    <i class="fas fa-edit"></i> Edit Scene
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dialogue Tab -->
+                <div class="tab-content" id="dialogue">
+                    <div class="section-header">
+                        <h2>Dialogue & Voice Management</h2>
+                        <div class="section-actions">
+                            <button class="btn btn--primary" id="multiCharacterBtn">
+                                <i class="fas fa-users"></i> Multi-Character Scene
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="dialogue-workspace">
+                        <div class="dialogue-characters">
+                            <h4>Character Voices</h4>
+                            <div class="character-voice-list" id="characterVoiceList">
+                                <!-- Character voices will be populated -->
+                            </div>
+                        </div>
+
+                        <div class="dialogue-editor">
+                            <h4>Dialogue Composition</h4>
+                            <div class="dialogue-controls">
+                                <select class="form-control" id="speakerSelect">
+                                    <option value="">Select speaker</option>
+                                </select>
+                                <button class="btn btn--outline" id="addDialogueBtn">
+                                    <i class="fas fa-plus"></i> Add New Line
+                                </button>
+                            </div>
+
+                            <!-- New section for pre-defined dialogue options -->
+                            <div class="dialogue-options-section">
+                                <h5>Pre-defined Dialogue Options</h5>
+                                <div class="dialogue-options-list" id="dialogueOptionsList">
+                                    <p class="text-secondary">Select a speaker to see pre-defined dialogue options.</p>
+                                </div>
+                            </div>
+
+                            <div class="dialogue-sequence" id="dialogueSequence">
+                                <p class="text-secondary">Start building your dialogue sequence</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Camera Tab -->
+                <div class="tab-content" id="camera">
+                    <div class="section-header">
+                        <h2>Camera Sequence Builder</h2>
+                        <p>Professional cinematography for ensemble scenes</p>
+                    </div>
+
+                    <div class="camera-workspace">
+                        <div class="sequence-templates">
+                            <h3>Multi-Character Templates</h3>
+                            <div class="template-grid">
+                                <div class="template-card" data-template="ensemble">
+                                    <h4>Ensemble Scene</h4>
+                                    <ul>
+                                        <li>Wide establishing shot</li>
+                                        <li>Individual character shots</li>
+                                        <li>Group interaction shots</li>
+                                        <li>Closing ensemble shot</li>
+                                    </ul>
+                                    <button class="btn btn--outline">Use Template</button>
+                                </div>
+
+                                <div class="template-card" data-template="dialogue">
+                                    <h4>Dialogue Sequence</h4>
+                                    <ul>
+                                        <li>Speaker close-ups</li>
+                                        <li>Reaction shots</li>
+                                        <li>Two-shot conversations</li>
+                                        <li>Environmental context</li>
+                                    </ul>
+                                    <button class="btn btn--outline">Use Template</button>
+                                </div>
+
+                                <div class="template-card" data-template="interview">
+                                    <h4>Interview Style</h4>
+                                    <ul>
+                                        <li>Professional interview setup</li>
+                                        <li>Subject focus shots</li>
+                                        <li>Airport atmosphere</li>
+                                        <li>Documentary feel</li>
+                                    </ul>
+                                    <button class="btn btn--outline">Use Template</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sequence-builder">
+                            <h3>Custom Sequence</h3>
+                            <div class="shot-list" id="shotList">
+                                <!-- Shots will be added here -->
+                            </div>
+                            <button class="btn btn--secondary" id="addShot">
+                                <i class="fas fa-plus"></i> Add Shot
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Generator Tab -->
+                <div class="tab-content" id="generator">
+                    <div class="section-header">
+                        <h2>VEO3 Prompt Generator</h2>
+                        <p>Professional broadcast-quality prompts with ensemble scene support</p>
+                    </div>
+
+                    <div class="generator-workspace">
+                        <div class="generation-summary">
+                            <h3>Production Summary</h3>
+                            <div class="summary-grid">
+                                <div class="summary-item">
+                                    <h4>Characters</h4>
+                                    <div id="summaryCharacters">None selected</div>
+                                </div>
+                                <div class="summary-item">
+                                    <h4>Scene</h4>
+                                    <div id="summaryScene">None selected</div>
+                                </div>
+                                <div class="summary-item">
+                                    <h4>Dialogue</h4>
+                                    <div id="summaryDialogue">None composed</div>
+                                    </div>
+                                <div class="summary-item">
+                                    <h4>Camera</h4>
+                                    <div id="summaryCamera">None configured</div>
+                                </div>
+                                <!-- New: Summary for configurable prompt elements -->
+                                <div class="summary-item">
+                                    <h4>Duration</h4>
+                                    <div id="summaryDuration">Exactly 8 seconds</div>
+                                </div>
+                                <div class="summary-item">
+                                    <h4>Style</h4>
+                                    <div id="summaryStyle">Professional broadcast documentary style</div>
+                                </div>
+                                <div class="summary-item">
+                                    <h4>Output Format</h4>
+                                    <div id="summaryOutput">High-quality video with synchronized Welsh-accented audio</div>
+                                </div>
+                                <!-- End New Summary -->
+                            </div>
+                        </div>
+
+                        <div class="prompt-generation">
+                            <div class="generation-controls">
+                                <button class="btn btn--primary btn--lg" id="generatePrompt">
+                                    <i class="fas fa-magic"></i> Generate VEO3 Prompt
+                                </button>
+                                <div class="generation-options">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" id="includeWelshAccent" checked>
+                                        Include Welsh accent specifications
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" id="includeBroadcastQuality" checked>
+                                        Professional broadcast quality
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" id="includeEnsembleSupport" checked>
+                                        Multi-character ensemble support
+                                    </label>
+                                </div>
+
+                                <!-- NEW CONTROLS FOR DURATION, STYLE, OUTPUT FORMAT -->
+                                <div class="form-group mt-16">
+                                    <label for="promptDuration" class="form-label">Prompt Duration</label>
+                                    <input type="text" id="promptDuration" class="form-control" placeholder="e.g., Exactly 8 seconds">
+                                </div>
+                                <div class="form-group">
+                                    <label for="promptStyle" class="form-label">Prompt Style</label>
+                                    <input type="text" id="promptStyle" class="form-control" placeholder="e.g., Professional broadcast documentary style">
+                                </div>
+                                <div class="form-group">
+                                    <label for="promptOutputFormat" class="form-label">Prompt Output Format</label>
+                                    <input type="text" id="promptOutputFormat" class="form-control" placeholder="e.g., High-quality video with synchronized Welsh-accented audio">
+                                </div>
+                                <!-- END NEW CONTROLS -->
+
+                            </div>
+
+                            <div class="prompt-output">
+                                <h4>Generated VEO3 Prompt</h4>
+                                <div class="prompt-text" id="promptOutput">
+                                    <p class="text-secondary">Configure your selections and click Generate to create your VEO3 prompt</p>
+                                </div>
+                                <div class="prompt-actions hidden" id="promptActions">
+                                    <button class="btn btn--outline" id="copyPrompt">
+                                        <i class="fas fa-copy"></i> Copy to Clipboard
+                                    </button>
+                                    <button class="btn btn--secondary" id="downloadPrompt">
+                                        <i class="fas fa-download"></i> Download Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Character Edit Modal -->
+    <div class="modal" id="characterEditModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Edit Character</h3>
+                <button class="close-button" onclick="window.veo3Generator.closeModal('characterEditModal')"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <form id="characterEditForm">
+                    <div class="form-group">
+                        <label for="editCharacterName">Name</label>
+                        <input type="text" id="editCharacterName" class="form-control" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="editCharacterDescription">Description</label>
+                        <textarea id="editCharacterDescription" class="form-control" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="editCharacterVoice">Voice Profile</label>
+                        <textarea id="editCharacterVoice" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="editCharacterCategory">Category</label>
+                        <select id="editCharacterCategory" class="form-control">
+                            <option value="traveler">Traveler</option>
+                            <option value="staff">Staff</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="editCharacterScenes">Associated Scenes (comma-separated)</label>
+                        <input type="text" id="editCharacterScenes" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="editCharacterDialogue">Sample Dialogue (one line per entry)</label>
+                        <textarea id="editCharacterDialogue" class="form-control" rows="5"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn--outline" onclick="window.veo3Generator.closeModal('characterEditModal')">Cancel</button>
+                <button class="btn btn--primary" id="saveCharacterEditBtn">Save Changes</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scene Edit Modal -->
+    <div class="modal" id="sceneEditModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Edit Scene</h3>
+                <button class="close-button" onclick="window.veo3Generator.closeModal('sceneEditModal')"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <form id="sceneEditForm">
+                    <div class="form-group">
+                        <label for="editSceneName">Name</label>
+                        <input type="text" id="editSceneName" class="form-control" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="editSceneDescription">Description</label>
+                        <textarea id="editSceneDescription" class="form-control" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="editSceneSubtitle">Subtitle</label>
+                        <input type="text" id="editSceneSubtitle" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="editSceneAtmosphere">Atmosphere</label>
+                        <input type="text" id="editSceneAtmosphere" class="form-control">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn--outline" onclick="window.veo3Generator.closeModal('sceneEditModal')">Cancel</button>
+                <button class="btn btn--primary" id="saveSceneEditBtn">Save Changes</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Generic Message Modal -->
+    <div class="modal" id="messageModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Message</h3>
+                <button class="close-button" onclick="window.veo3Generator.closeModal('messageModal')"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <p id="messageModalBody"></p>
+                <input type="text" id="messageModalInput" class="form-control" style="display:none;">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn--outline" id="messageModalCancelBtn" style="display:none;">Cancel</button>
+                <button class="btn btn--primary" id="messageModalConfirmBtn">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

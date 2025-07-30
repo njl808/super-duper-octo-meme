@@ -1,0 +1,110 @@
+{
+    "69 Executive Lounge": {
+        "description": "The 69 Executive Lounge is a posh, Emirates-style VIP space tucked away upstairs at Cardiff Airport. The interior is sleek and indulgent — warm downlighting, champagne-toned marble floors, and tall smoked-glass panels. Velvet armchairs in deep navy are arranged around polished walnut coffee tables, each set with glossy magazines and flickering LED candles. To the rear, a fully stocked open bar gleams behind gold mesh shelving. Bottles of gin, whisky, and foreign liqueurs are lit softly from below. To the right, a food station offers tiny ramekins of olives, breadsticks, and high-end finger food arranged like artwork. The air smells faintly of truffle oil and eucalyptus diffusers.",
+        "icon": "wine-glass-alt",
+        "subtitle": "Exclusive VIP Area",
+        "atmosphere": "Luxurious & Exclusive"
+    },
+    "Cardiff Airport Security Area": {
+        "description": "The scene opens in a busy (with holiday makers putting items into trays, workers scanning people in walk-in scanners), sleek, modern security area of Cardiff Airport, meticulously clean and organised. Bright, overhead lighting casts a sterile glow across polished floors and a neat conveyor belt stacked with grey trays. A state-of-the-art X-ray machine stands prominently beside minimal signage. The atmosphere is quiet but tense — the sound of zips, trays sliding, and the occasional toddler tantrum echo through the space.",
+        "icon": "shield-alt",
+        "subtitle": "Security Checkpoint",
+        "atmosphere": "Tense & Efficient"
+    },
+    "Outside MyKindof Airport Terminal": {
+        "description": "A large, modern UK ice cream van is parked across the drop-off zone directly outside the futuristic MyKindof Airport terminal. The van is a long-wheelbase Ford Transit with high roof and dual rear wheels. It’s wrapped in a vibrant “MYKINDOF ICE CREAM” design: white base with pastel swirls of pink, blue, and yellow, cartoon cone graphics, and bold bubble-style letters in hot pink and baby blue. A wide serving hatch is fully open on the passenger side. Inside, a clean stainless steel counter holds two soft-serve machines, neon syrup bottles, a sprinkle tub, and a till. A cheeky sign on the counter reads: “CASH OR CARD, BUT NO BLOODY IOUs”. Above the hatch, a printed menu board lists: Cone of Duty (Chocolate), Delayed Sundae, Airport Whip (Double Flake), Jetlag Float. 90s dance music plays faintly from speakers.",
+        "icon": "ice-cream",
+        "subtitle": "Terminal Exterior & Ice Cream Van",
+        "atmosphere": "Playful & Busy"
+    },
+    "WHJones – Cardiff Airport": {
+        "description": "The scene opens inside Cardiff Airport, revealing a well-lit and humorously rebranded travel essentials shop titled 'WHJones,' a cheeky spoof of the iconic British chain. This bright, organised convenience store serves as the perfect setting for a fly-on-the-wall comedy skit or background in a larger airport scene. The storefront is framed by a clean, modern counter finished in light wood with a bold blue sign across the front displaying the crisp white WHJones logo. Two checkouts stand ready, giving the space an authentic retail atmosphere, ideal for deadpan cashier jokes or awkward tourist interactions. Behind the counter, neatly labelled sections span the back wall. Shelves are tightly packed with: MAGAZINES (gossip rags, travel guides, suspiciously outdated TV weeklies), SNACKS (crisps, sweets, questionable meal deals), TRAVEL EXTRAS (neck pillows, plug adapters, toothpaste, last-minute panic buys). To the left, a narrow rack offers Books & Stationery. On the right-hand wall, bright yellow lettering boldly categorises the shop’s offerings: FOOD & DRINK and TRAVEL & EXTRAS.",
+        "icon": "store",
+        "subtitle": "Airport Convenience Store",
+        "atmosphere": "Functional & Humorous"
+    },
+    "DREGS – Airport Terminal": {
+        "description": "The scene opens on a modern bakery-style café located inside a busy airport. The café is called 'DREGS,' a cheeky nod to the well-known Greggs chain. The interior is bright, clean, and neatly arranged, lit warmly by recessed ceiling lights. A large navy-blue sign runs across the top of the storefront, displaying the word 'DREGS' in bold white letters. To the side of the text is the brand’s distinctive orange square logo made from four rounded blocks. The cream-tiled wall beneath the sign provides a fresh, tidy backdrop. Two promotional boards are mounted side by side: one features a golden sausage roll priced at £1.20, and the other shows a steaming cup of coffee at £1.90. The counter features multiple glass display cabinets filled with neat rows of baked goods. Each tray is labelled clearly. To the left, a shelf displays takeaway snacks and crisps, stacked neatly for quick access. Behind the counter, a coffee machine, till, and card reader are positioned for fast service.",
+        "icon": "coffee",
+        "subtitle": "Airport Bakery Café",
+        "atmosphere": "Bright & Bustling"
+    },
+    "Special Assistance Waiting Area": {
+        "description": "The scene opens in a tucked-away corner of Cardiff Airport, clearly marked with a sign reading: 'SPECIAL ASSISTANCE – WAITING AREA'. The space is no-frills: five grey plastic chairs lined against a wall, a scuffed water cooler with no cups, and an old vending machine humming in the background. The lighting is slightly too bright, and everything feels vaguely temporary. A printed poster taped to the wall reads: 'Please remain seated. Our team will collect you shortly.'",
+        "icon": "wheelchair",
+        "subtitle": "Assistance Waiting Zone",
+        "atmosphere": "Quiet & Functional"
+    },
+    "Main Lobby Stair View entrance ": {
+        "description": "A wide, open concourse inside Cardiff Airport’s main terminal, defined by its stark, utilitarian architecture and clean symmetry. The ceiling is low and gridded with square white acoustic tiles, punctuated by evenly spaced recessed LED downlights that cast a soft, neutral light across the entire space. The floor is a worn, matte green composite with embedded beige and maroon direction blocks forming subtle navigation strips, hinting at old terminal wayfinding. Centrally located is a wide staircase with stainless steel handrails and green safety grip strips on each step. The stairs ascend directly into the upper departures level, inviting movement but hinting at hassle. Suspended above the stairs is a black overhead wayfinding sign spanning the width of the concourse. The sign is bold, utilitarian, and cluttered with white pictograms — pointing toward lifts, escalators, baggage drop, toilets, assistance, and ATM access. The block text reads: Glanllyn Bag Hunanwasanaeth – Self Service Bag Drop . Flanking the stairs, on both the left and right, are twin digital departure boards displaying flight data in neat columns of red, yellow, and blue — flickering with status updates and row numbers. Their pixelated glow reflects off the tiled ceiling, adding a slight digital pulse to the sterile ambience. Beneath the stairwell is a black wall-mounted vinyl wrap featuring a large promotional poster: a tranquil image of red sun loungers overlooking calm turquoise water, with the message “Rest and relaxation. Incoming.” It provides a surreal contrast to the bustling, practical atmosphere — like a promise that feels far away. On the right side of the wall is a modern geometric triangle motif in dark red, partially cropped by the edge of the wrap. The space is symmetrical and sterile, clearly designed for flow and function, but with enough bold signage and contrasting light to create visual drama.",
+        "icon": "terminal",
+        "subtitle": "Quiet Waiting Area",
+        "atmosphere": "Playful & Busy"
+    },
+    "Cardiff Airport Terminal Entrance – Interior": {
+        "description": "The camera is set just inside the terminal, facing the main entrance of Cardiff Airport. Above the revolving doors, a black overhead sign displays 'cardiff airport' in bold white letters with a red square icon. To the left, the WHSmith unit has been replaced by a sleek, glass conservatory-style waiting area. The space is modern and minimal — white bucket chairs, clean tiled floor, potted plants, and sunlight beaming through full-height glass panels. It creates a fresh, neutral backdrop ideal for interviews.",
+        "icon": "door-open",
+        "subtitle": "Main Terminal Entrance",
+        "atmosphere": "Open & Inviting"
+    },
+    "TikTok Lounge": {
+        "description": "The TikTok Lounge is a chaotic influencer paradise tucked behind a tinted glass wall in the main concourse of Cardiff Airport. Neon pink strip lights run along the ceiling edges, while artificial turf carpets the floor around branded beanbags shaped like giant emojis. A glowing sign above the entrance reads: '69 EXECUTIVE INFLUENCER LOUNGE – TAG US OR JOG ON'. Pastel selfie walls, LED ring lights, and a free glam station line the back. To the left, a mocktail bar labeled 'Sippin’ Station' features novelty drinks like 'Thirst Trap Tropic' and 'Blueberry BeReal'. In the corner, a digital display flashes usernames of lounge guests gaining followers in real time — titled 'THE FOLLOW WALL'. Background audio: TikTok viral sounds mixed with lounge announcer voice saying: 'Reminder: No clout, no cocktails.' Scene is locked for Cardiff Airport TV satire with surreal, influencer-driven humour.",
+        "icon": "hashtag",
+        "subtitle": "Influencer Hotspot",
+        "atmosphere": "Vibrant & Chaotic"
+    },
+    "COSTA Fu#cking BOMB": {
+        "description": "The scene opens inside a Costa Coffee spoof 'COSTA Fu#cking BOMB,' an irreverently humorous coffee shop situated within Cardiff Airport. The interior radiates a chic, edgy vibe with deep burgundy walls contrasted by sleek black countertops, creating an upscale yet playfully sarcastic atmosphere. At the center of attention is a stylish neon-lit circular sign that boldly displays 'COSTA Fu#cking BOMB' in large white letters, glowing against the dark wall behind it. The lighting adds a warm, trendy ambiance suited for satire and dry comedy scenes. A large modern digital menu screen hangs above the main work area, listing humorous fake drink names and snack options in white block lettering. Below this, a long, continuous black counter stretches from one side of the café to the other, with no gaps or openings. It is clean, professional, and fully connected — the kind of barista stands behind to serve customers directly across. The countertop features a compact industrial-style coffee machine, stacks of takeaway cups, a row of syrups, a glass dome covering pastries, and a visible till. Behind the counter, open shelving is neatly arranged with supplies — coffee beans, sugar jars, spare cups — reinforcing the efficient layout of the café.",
+        "icon": "coffee-hot",
+        "subtitle": "Edgy Coffee Shop",
+        "atmosphere": "Edgy & Humorous"
+    },
+    "Departures Lounge, Near WHJones": {
+        "description": "Ventilation pipes snake across the exposed ceiling — industrial and unapologetic — casting long shadows across the wide, empty space below. Fluorescent lights hum softly, giving the area a faint, sterile glow. The setting feels like a forgotten departure gate or a lifeless transition zone between security and somewhere vaguely more exciting. To the right, tucked beside a row of white columns, sits a budget-looking shopfront marked 'WHJones' — a cheeky off-brand travel store clearly part of the same fictional universe as its more polished sibling. The sign is printed in oversized white serif letters on a royal-blue background. It's clearly the same company… just cheaper. Inside, shelves are crammed with colourful snacks, bottled drinks, chewing gum, and magazines no one ever finishes. It's the sort of shop where someone buys a Sudoku book and a sausage roll at 6am because time no longer means anything. To the left of the frame, rows of empty black airport chairs form a lonely, rigid line facing nothing. A small sign reads 'S1 Lounge Departures'.",
+        "icon": "chair",
+        "subtitle": "S1 Lounge Departures",
+        "atmosphere": "Sterile & Transitional"
+    },
+    "MyKindofPint Bar": {
+        "description": "MyKindofPint,' a sleek, contemporary airport bar located within Cardiff Airport's departure lounge. The stylish wooden bar has a polished, single-level countertop that curves smoothly around, creating an inviting and accessible atmosphere. Overhead, warm pendant lighting hangs elegantly from the ceiling, casting a cozy, intimate glow. Behind the bar, three illuminated digital menu boards display various offerings, including craft beers and cocktails. The central board prominently showcases the minimalist neon pint-glass logo alongside the bold branding 'MyKindofPint'. The back wall features neatly arranged shelves stocked with a carefully curated selection of spirits and liqueurs, highlighted subtly by ambient backlighting. Below, rows of sparkling clean glasses and neatly lined beer taps further underline the bar’s meticulous presentation.",
+        "icon": "beer-mug-empty",
+        "subtitle": "Modern Airport Bar",
+        "atmosphere": "Cozy & Inviting"
+    },
+    "Au Vodka Cardiff Airport Comedy Club": {
+        "description": "The scene opens on a lively comedy stage set within the bustling departure lounge of Cardiff Airport, clearly branded as the 'Cardiff Airport Comedy Club', proudly sponsored by Au Vodka. The focal point is a compact yet stylish wooden stage, slightly elevated to ensure clear visibility. The stage flooring features polished wood panels, subtly reflecting the soft, warm lighting from stylish brass fixtures above, creating an intimate and inviting ambience. Directly behind the stage, a striking navy-blue backdrop boldly announces 'Cardiff Airport Comedy Club,' in crisp, vibrant white lettering. Beneath, gold lettering tastefully reads 'Sponsored by Au Vodka,' emphasizing the club’s trendy partnership. The backdrop is framed by an exposed-brick wall, enhancing the authentic comedy club atmosphere. On either side of the stage, subtle mood lighting sets a relaxed yet expectant atmosphere. A sleek microphone stands center-stage. In front of the stage, an audience seating area with modern tables and comfortable chairs arranged casually provides an intimate, relaxed vibe.",
+        "icon": "microphone-alt",
+        "subtitle": "Airport Comedy Stage",
+        "atmosphere": "Lively & Entertaining"
+    },
+    "MyKindofHoliday Check-in Desk": {
+        "description": "The scene opens on a vibrant, upbeat check-in desk at Cardiff Airport, vividly branded as 'MyKindofHoliday,' instantly setting the mood for travelers. The backdrop of the desk showcases a serene beach scene with clear blue skies meeting calm turquoise waters. Dominating the visual is a large sign emblazoned across the wall in lively, sunny colors. 'MyKindofHoliday' is proudly displayed in bold, inviting yellow and white letters against a cheerful blue background, paired with the playful slogan beneath in bright red lettering: 'WHERE YOUR TRIP BEGINS WITH A GRIN'. Above, another tagline confidently announces: 'Your kind of holiday starts right here'. The check-in counter itself complements the theme perfectly, featuring matching bright yellows and blues. Clearly placed on top is a modern digital screen with a large ShitAdviser logo styled like tripadviser underneath the words Rate Your Shit!. Nearby, a refreshing iced coffee sits enticingly alongside promotional leaflets. Additional fun signage decorates the front of the desk, including a pink glittery arrow, a vibrant 'Beach Mode' sticker, and cheerful holiday-themed decorations.",
+        "icon": "plane-departure",
+        "subtitle": "Holiday Check-in",
+        "atmosphere": "Vibrant & Upbeat"
+    },
+    "Cardiff Airport Air Traffic Control Tower": {
+        "description": "The control tower cab, perched high above Cardiff Airport, offers a panoramic, 360-degree view through vast, angled glass panels that slant outward to reduce glare. The space is a meticulously organized command center, bathed in a cool, consistent glow from numerous digital screens. The central console, a sweeping, ergonomic arc of dark, anti-glare material, is dominated by rows of brightly lit monitors. Each screen displays a complex mosaic of real-time data: radar scopes with glowing green blips representing aircraft, flight plan strips scrolling with alphanumeric codes, weather overlays, and digital maps of the airport's runways and taxiways, all alive with constantly updating information. Headset cables snake across the console, connecting to sleek, professional headsets worn by the air traffic controllers. These controllers, typically two or three per shift, are seated on ergonomic, high-backed chairs that swivel effortlessly, allowing them to sweep their gaze from the screens to the skies outside. Their movements are precise and economical, their faces illuminated by the screen light, often creased with focused concentration or the faint, almost imperceptible tension of managing complex airspace. Their voices, when they speak into their microphones, are calm, authoritative, and punctuated by the crisp crackle of radio communication – a constant, low murmur of instructions and confirmations. Above the main console, a secondary bank of screens displays live CCTV feeds of various parts of the airfield, providing crucial visual checks. Physical controls, suchs as large, red emergency buttons and smaller, tactile switches for lighting or communication channels, are neatly integrated but clearly distinct. The air itself feels subtly pressurized, clean and sterile, with the faint hum of electronics being the dominant sound, occasionally punctuated by the distant rumble of an aircraft engine or the precise click of a keyboard. Overall, the impression is one of highly functional, intensely focused professionalism, a silent ballet of data and human decision-making unfolding against the vast, ever-changing backdrop of the sky.",
+        "icon": "tower-broadcast",
+        "subtitle": "Air Traffic Control",
+        "atmosphere": "Focused & High-Tech"
+    },
+    "Cardiff Airport Lift – Security Camera View": {
+        "description": "The static, slightly grainy, wide-angle lens of a security camera captures the interior of a sleek, modern airport lift. The walls are polished stainless steel, reflecting the soft, diffused overhead lighting, giving the space a cool, almost clinical sheen. The floor is a clean, dark grey. A digital panel above the sliding doors displays the floor number, currently reading 'G' for Ground. Prominently displayed on the rear wall of the lift, a custom-made sign is affixed, stark white with bold black lettering, clearly visible in the camera's fixed gaze. It. reads: **CARDIFF AIRPORT CONFESSIONS IN A LIFT** [VEO3 Logo - top right corner of the sign]",
+        "icon": "video",
+        "subtitle": "Confessions in a Lift",
+        "atmosphere": "Confined & Observational"
+    },
+    "Cardiff Airport Gate Waiting Area – Day": {
+        "description": "A spacious, modern busy with holiday makers going on holiday and suitcases stacked gate waiting area inside Cardiff Airport. The flooring is large-format matte tiles in light grey, contrasting with the exposed ceiling’s black beams and silver air ducts. Large white soundproofing discs float overhead like UFOs, evenly spaced above rows of seating. Along two sides of the room, long rows of black metal airport seats with armrests are bolted to the tiled floor. A bin stands neatly at the centre of the room. Behind the seats, the back wall is painted in a boldwhite  tone with a silhouetted skyline mural featuring towers, spires, and a stylised bridge — a tribute to Welsh cityscapes. Two oversized windows dominate the far wall, flooding the space with soft daylight. Outside, the airport apron and green treetops are visible beyond the runway. The scene is clean, minimal, and sterile — perfect for comedic contrast.",
+        "icon": "chair",
+        "subtitle": "Gate Waiting Area",
+        "atmosphere": "Spacious & Anticipatory"
+    },
+    "SHITadvisor Tiolet area": {
+        "description": "The setting is a contemporary airport interior with pale tiled flooring and warm, wood-panelled ceiling slats with strip lighting. In the centre sits a curved wooden slatted bench with black metal legs, its wavy shape forming a sculptural centrepiece. Against the far wall are several plain wooden doors, likely toilets or staff-only areas, each marked with bold red signage. A hand sanitiser stand is positioned centrally near the wall. To the right, several rows of basic black airport seating line the grey feature wall, and a red fire extinguisher box is mounted nearby. The space is devoid of passengers, giving it a clinical, almost eerie calmness.",
+        "icon": "toilet",
+        "subtitle": "Quiet Waiting Area",
+        "atmosphere": "Clinical & Calm"
+    }
+}

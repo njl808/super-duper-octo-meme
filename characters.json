@@ -1,0 +1,267 @@
+{
+    "Nanwen": {
+        "description": "A plump woman in her 60s sits slouched on a black metal bench. She has a deeply lined, sun-worn face — pale, slightly leathery skin with faded pink undertones and deep wrinkles around her mouth, eyes, and forehead. Her cheeks are slightly sunken with a pronounced fold between nose and lips. She wears no makeup. Her short, grey, wiry hair peeks out from beneath a green-white-red Welsh dragon bucket hat. Nanwen's expression is permanently scowling, side-eyed, and unimpressed. She wears a red Welsh rugby shirt tucked into leopard-print leggings and clutches a floral handbag in her lap. She's mid-rant, speaking with a thick Valleys accent, loud enough to make passing travellers look twice.",
+        "voice": "A loud, gravelly mezzo-soprano, heavily laden with a thick Valleys accent. Her delivery is brash, unfiltered, and perpetually irritated — the sort of voice that cuts through airport noise and makes people turn around.",
+        "category": "Star",
+        "scenes": ["Cardiff Airport Lift – Security Camera View"],
+        "dialogue": ["These chairs feel like they've seen more arse than OnlyFans", "Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to", "Another bloody delay, typical Cardiff Airport"],
+        "profile_image_url": "images/nanwen.png"
+    },
+    "Tracey": {
+        "description": "A 43-year-old woman with a sharp, square face and short burgundy spiked hair. She wears thick leopard-print glasses and has a naturally scowling expression. Her body is solid and stocky. She’s dressed in the MyKindofHolidays uniform: a tight yellow polo shirt tucked into tighter green dungarees, with a “Beach Mode” badge bursting from the chest pocket. Leopard-print Crocs complete the look. Her lanyard is twisted and her badge reads “Tracey (Don’t Ask)”. No gum.",
+        "voice": "A harsh, grating voice with a strong, no-nonsense working-class accent (possibly a Valleys or similar South Wales accent, reflecting the Cardiff Airport setting). Her tone is perpetually irritable and dismissive, delivered with a quick, almost accusatory bark. There's a distinct lack of warmth or patience, and and her scowling expression should be clearly audible in her clipped, blunt delivery. She sounds like someone who has dealt with too many stupid questions and is at the end of her tether.",
+        "category": "Checkin staff",
+        "scenes": ["MyKindofHoliday Check-in Desk"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/tracey.png"
+    },
+    "Marti": {
+        "description": "Marti is a man in his early thirties with a sharp, well-groomed appearance. His skin is smooth and lightly tanned, with strong cheekbones and a defined jawline. His eyebrows are neatly shaped and arched, giving him a confident, expressive look. His eyes are almond-shaped and dark, framed by bold eyeliner and long lashes that accentuate his dramatic style. His lips are full and carefully lined, with a subtle smirk often playing at the corners. His nose is narrow and straight, balanced proportionally to his face. His hair is jet black, slicked back tightly in a polished, sculpted style, with not a strand out of place. He often wears dark sunglasses perched on his head, ready to slide down with attitude. His expression is confident, poised, and always one second away from delivering a side-eye or sarcastic comeback. He wears makeup — including foundation, contour, and a touch of highlighter — applied flawlessly for a striking, photo-ready finish. Marti wears a bright yellow polo shirt tucked into fitted green dungarees with rolled cuffs at the ankle. The polo is crisp and clean, collar popped ever so slightly for flair. His dungarees are a bold emerald green, snug at the waist, with a playful retro vibe. On the front chest pocket is a large round badge that reads 'Beach Mode' in colourful bubble letters with a tiny sun and palm tree graphic above it.",
+        "voice": "A bright, high-pitched vocal delivery, almost a vocal 'peacocking,' with a pronounced and affected Welsh lilt that leans into theatricality. His tone is full of deliberate inflections, dramatic pauses, and a heightened sense of emphasis on key words, almost as if every sentence is a mini-performance. There's an inherent sass and playful condescension, often ending sentences with a flourish or a knowing upward lilt. His 'smirk' is not just visible but audible in the campy, queen-like quality of his voice, making even a simple statement sound like a fabulous pronouncement. Think of a voice that commands attention through its sheer fabulousness and sharp wit, always ready for a cutting remark or a dramatic reveal.",
+        "category": "Checkin staff",
+        "scenes": ["MyKindofHoliday Check-in Desk"],
+        "dialogue": ["Welcome to MyKindofHoliday, darling!", "Beach Mode activated, honey!"],
+        "profile_image_url": "images/marti.png"
+    },
+    "Frank": {
+        "description": "69 years old, hunched, and permanently unimpressed. He wears a faded yellow hi-vis vest over a short-sleeve white shirt with navy trousers. His ID badge is scratched, and his clipboard has clearly seen better days. Thin-rimmed glasses sit on the end of his nose. His tone is dry and permanently sarcastic.",
+        "voice": "A low, gravelly monotone, delivered slowly and deliberately, with a pronounced sigh woven into almost every phrase. His sarcasm is less sharp and more a weary, flat drawl, as if he's utterly exhausted by human existence. Think of a perpetually fed-up civil servant who speaks just above a mumble, but every word carries a passive-aggressive weight.",
+        "category": "staff",
+        "scenes": ["Special Assistance Waiting Area"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/frank.png"
+    },
+    "Chloe": {
+        "description": "A 24-year-old woman with a slim build and a tired-but-polished appearance. Her skin is light with a smooth, matte foundation. She has soft features — rounded cheeks, a small nose, and glossed lips. Her hazel eyes are framed with long lashes and subtle eyeshadow. Her straight light-brown hair is worn in a high ponytail with flyaways tucked behind her ears. Her expression is neutral, almost blank, with the faintest trace of customer-service patience. She wears the WHJones uniform: a fitted light blue button-up shirt with short sleeves, tucked into straight-leg black trousers. Around her neck is a black lanyard with a plastic ID badge that reads CHLOE – FLOOR STAFF. She wears plain white trainers.",
+        "voice": "A clear, even-toned voice with a slight upward inflection at the end of sentences, a common trait of customer service professionals. While generally polite, there's an underlying weariness that subtly dulls her enthusiasm. Her delivery is practiced and almost automatic, like someone repeating a script multiple times a day, but without being overtly robotic. Think of a voice that could easily blend into background airport announcements if not for its subtle, gentle lilt.",
+        "category": "staff",
+        "scenes": ["WHJones – Cardiff Airport"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/chloe.png"
+    },
+    "Kev": {
+        "description": "Kev is a man in his late thirties with a stocky build and a clean, tidy appearance. He has fair skin with a slight red undertone, and his face is freshly shaven. His cheeks are full and his jawline is soft but neat. He has thick, natural eyebrows and short brown hair, clipped and parted to the side. He wears a crisp navy-blue short-sleeved shirt tucked into matching navy trousers. Over this, he has a dark blue DREGS apron with the brand logo printed clearly in white across the chest. The apron is perfectly fitted and clean. A name badge on his chest reads KEV in block capital letters. Kev wears polished black non-slip work shoes.",
+        "voice": "A no-nonsense, slightly gruff but ultimately friendly baritone, with a distinct, mild Northern English accent – perhaps a subtle Lancashire or Yorkshire lilt. His voice is clear and carries well, indicating someone used to be heard over ambient noise, but there's an underlying warmth, like a local shop owner. When he delivers his line about sausage rolls, it should have a hint of genuine, if deadpan, pride, delivered with that characteristic Northern straightforwardness. Think of a voice that sounds like it could easily switch from taking an order to giving directions without changing its steady, reliable rhythm.",
+        "category": "staff",
+        "scenes": ["DREGS – Airport Terminal"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/kev.png"
+    },
+    "Baz": {
+        "description": "Mid-50s, bald on top with greasy black hair around the sides. Always got a roll-up behind his ear. Wears a dusty high-vis with oil stains, tracksuit bottoms, and battered work boots. Gruff, dry humour, always carrying a mug of tea he never drinks.",
+        "voice": "A deep, gruff voice with a strong, working-class British accent (e.g., South Wales Valleys or a similar industrial region). His tone is often weary but punctuated by dry, cynical observations and a low, rumbling chuckle. Words are delivered slowly, with a deliberate, almost resigned cadence, often ending in a muttered complaint or a sarcastic aside.",
+        "category": "Maintance staff",
+        "scenes": ["DREGS – Airport Terminal"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/baz.png"
+    },
+    "Dewi the Red Dragon": {
+        "description": "Dewi is a full-bodied Welsh dragon standing upright at human height. He has a slim, toned build. His skin is deep red with a matte finish — not glossy or cartoony. He has strong wings folded against his back, a long tail coiled to one side, and short black horns curling back from his skull. His eyes are bright yellow with slit pupils, and his jawline is defined, giving him a stern yet expressive face. He wears no clothing, only a large “@Cardiff Airport TV” branded photo ID tag looped on a thick chain around his neck. Dewi stands eye-level with the traveller, matching human height for easy interaction. He stands on two legs with a branded Airport TV microphone in one hand, held confidently. He’s always still, expressive, and commanding. No fire-breathing — just sass and attitude.",
+        "voice": "A commanding, low-pitched voice with a distinct, rich Welsh accent. It's gravelly but clear, carrying an inherent authority balanced with a playful, almost sardonic 'sass and attitude'. When he speaks, there's a slight resonant quality, as if the sound echoes just a little from his chest, but without being overtly booming. The British politeness is undercut by a dry wit. Think a seasoned Welsh baritone, but one who sounds perpetually unimpressed yet engaging.",
+        "category": "traveler",
+        "scenes": ["Outside Cardiff Airport Terminal"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/dewi.png"
+    },
+    "Jeremy Lewis": {
+        "description": "23 years old. Tanned skin. Sharp oval face. Clean-shaven. Messy brown quiff. Large black sunglasses. Wears a black North Face gilet over a white Nike T-shirt. Grey Nike tech fleece joggers. White Nike Air Force 1s. Fake gold rope chain. Chews gum. Leans with both arms on the hatch, eyes half-lidded, smirking.",
+        "voice": "A laid-back, almost laconic voice with a pronounced, confident swagger. His speech is often slurred slightly due to chewing gum, giving it a casual, 'don't care' attitude. There's a subtle, underlying bravado, and his tone carries a hint of a generic urban youth accent, making him sound perpetually cool and slightly dismissive. His smirking expression should be audible in his vocal delivery, particularly when delivering a cheeky line like his TikTok promotion.",
+        "category": "traveler",
+        "scenes": ["Outside MyKindof Airport Terminal"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/jeremy.png"
+    },
+    "Julian Lewis": {
+        "description": "23 years old. Tanned skin. Same build and face shape. Cropped brown fade with gelled spikes. Sunglasses pushed on head. Matching black North Face gilet over white Nike T-shirt. Grey Nike tech joggers. White Nike Air Force 1s. Diamond stud earrings. Taps his ring on the counter, arms folded.",
+        "voice": "A slightly more energetic and sharper version of Twin #1's voice. It's still laid-back with a confident, urban youth accent, but perhaps with a quicker delivery and a more pronounced 'smirk' in his tone, especially when delivering cheeky or slightly aggressive lines. The sound of his ring tapping should almost be audible in the sharp, cutting edge of his words. He has a touch more overt arrogance than his brother, reflected in a slightly louder or more insistent vocal presence.",
+        "category": "traveler",
+        "scenes": ["Outside MyKindof Airport Terminal"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/julian.png"
+    },
+    "Skippy": {
+        "description": "Skippy is an upright kangaroo wearing a battered bucket hat decorated with dangling old wine corks. He wears wraparound sunglasses, a stained vest, and cargo shorts. Around his neck hangs a SHITAdvisor badge on a laminated lanyard. He grips a black mic with the “Airport TV” logo, pointed at the next passenger.",
+        "voice": "A boisterous, drawling tenor with a distinct, exaggerated Australian accent, bordering on caricature. His voice is loud and unrefined, often punctuated by a sort  of hearty, slightly drunken chuckle or snort. There's a perpetual cheerfulness, but it's mixed with a crude, familiar directness. His questions are delivered with a broad, almost aggressive amiability, as if he's genuinely curious but doesn't care about personal boundaries. Think of a voice that sounds like it's been seasoned by too many beers in the sun, always ready for a laugh and a bit of cheeky banter.",
+        "category": "traveler",
+        "scenes": ["Cardiff Airport Terminal Entrance – Interior"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/skippy.png"
+    },
+    "Shazza": {
+        "description": "Shazza is a 29-year-old woman with platinum blonde hair in a messy bun, huge black sunglasses on her forehead, and a bright pink tracksuit that says “Sun, Sex, Sangria” in glitter letters. She’s dragging a leopard-print suitcase and sipping a cocktail in a reusable Starbucks cup.",
+        "voice": "A loud, slightly slurred, and perpetually excited voice with a strong, regional British accent (likely a general 'party holiday' accent, possibly a blend of Northern or Midlands). Her tone is uninhibited and boisterous, often delivered with a rapid, breathless enthusiasm, as if she's constantly on the verge of laughter or a new adventure. There's a slight rasp from potential late nights, and her 'smirk' should be audible in her delivery.",
+        "category": "traveler",
+        "scenes": ["Cardiff Airport Terminal Entrance – Interior"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/shazza.png"
+    },
+    "Derick": {
+        "description": "Derick is a legendary Welsh news reporter in his late 60s. His face is a roadmap of experience: sharply defined features with a network of fine lines around his keen, observant eyes that often hold a glint of dry amusement. His jawline is still firm, hinting at past resolve, and his thin lips frequently settle into a wry, slightly cynical half-smirk. He has closely cropped, greying hair that's impeccably neat, adding to his professional, if slightly world-weary, appearance. He wears a classic beige raincoat, a chunky press badge, and carries a battered BBC mic. He's just been dragged out of retirement for 'one last job.' Physically, he's sharp and wry. He never misses a chance for sarcasm.",
+        "voice": "A seasoned, mid-range voice with a bone-dry, understated South Wales Valleys accent. His delivery is precise and measured, often with a slight, almost imperceptible pause before a sarcastic punchline, allowing the dry wit to land perfectly. There's a world-weariness in his tone, but also an underlying sharpness and and intelligence, indicating years of observing and reporting. His voice carries the subtle resonance of someone used to being heard clearly and authoritatively, even when muttering a cynical aside.",
+        "category": "staff",
+        "scenes": ["Cardiff Airport Terminal Entrance – Interior"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/derick.png"
+    },
+    "Stacey": {
+        "description": "Stacey is a plump woman, 28 years old, with a flat, tired expression. Her skin is pale with thick foundation. Her cheeks are round and heavily contoured. She has thick black lashes, bold eyeliner, and sharply drawn eyebrows. Her lips are overlined with matte lipstick. Her eyes are half-lidded, dull, and uninterested. Her hair is tied in a tight, messy bun, with loose strands sticking out at the sides. Her expression remains blank and unimpressed. She wears the CostaBomb uniform: a burgundy polo shirt and matching apron with “CostaBomb” printed across the chest in white letters. She has on black leggings and worn, fake designer Crocs. A large iced coffee sits next to the till.",
+        "voice": "A monotone, flat voice with a perpetual sigh hidden just beneath the surface. Her delivery is slow and unenthusiastic, as if speaking requires too much effort. There's a slight, almost imperceptible drag on her words, and her tone conveys a deep-seated boredom and disinterest. Even when attempting to be promotional, her voice lacks any genuine excitement, making her command to 'follow' sound more like a resigned suggestion. The clicking of her nails should be an audible counterpoint to her weary vocal rhythm.",
+        "category": "staff",
+        "scenes": ["COSTA Fu#cking BOMB"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/stacey.png"
+    },
+    "Bigfoot": {
+        "description": "Bigfoot stands behind the full-length counter. He is tall, broad-shouldered, and covered in short, dark brown hair — trimmed and tidier than expected. His build is leaner, more athletic than bulky. His face is mostly visible, with only a faint covering of fur along the jawline. He wears black sunglasses, a thick gold chain, and a deadpan expression that suggests he’s not enjoying the shift. He wears a burgundy CostaBomb apron, neatly fitted across his torso. The word “CostaBomb” is printed across the front in bold white letters. The apron fits him properly, unlike previous attempts — no struggle, no stretch marks. He stands upright behind the till, one hand resting lazily on the screen, the other holding a large iced coffee with his name spelled wrong: “Bigfoop”.",
+        "voice": "A deep, resonant growl, surprisingly clear but perpetually flat and devoid of enthusiasm, almost a low-frequency hum. His words are delivered slowly and deliberately, each one carrying the weight of profound disinterest, as if speaking is an arduous chore. There's a subtle, almost imperceptible world-weariness in his tone, and his grunt of unimpressed agreement or disdain is more frequent than actual words. He speaks with the cadence of someone who has heard it all and found it all incredibly tedious, making his blunt pronouncements all the more impactful.",
+        "category": "staff",
+        "scenes": ["COSTA Fu#cking BOMB"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/bigfoot.png"
+    },
+    "Trevor": {
+        "description": "Trevor is a man in his late sixties with a worn, tired face. His skin is pale with a dull, weathered texture, showing deep-set wrinkles across his forehead and around his eyes. He has sagging cheeks, a soft jawline, and heavy lines running from his nose to the corners of his mouth. His eyebrows are thick but untidy, and his eyelids hang slightly, giving him a half-awake expression. His eyes are small and sunken with a tired, unimpressed stare. He has short grey hair, thinned out on top, and usually wears a faded cap pulled low on his head. His mouth rests in a slack, mildly fed-up position, like he’s halfway through muttering something under his breath. His expression is flat and unimpressed. He slouches in a chair at a table set in the corner near the bar wearing a flat cap, filthy string vest, beer-stained tracksuit bottoms, and mismatched Crocs. A half drunken pint of beer in his hand. A faded beach towel with a dragon print is draped over his suitcase.",
+        "voice": "A low, slurred baritone with a distinct, tired 'chav-style' British accent (common for a working-class, unrefined character). His voice carries a perpetual undertone of mild annoyance and lethargy, delivered with a slow, rambling cadence. His words often trail off, and there's a certain world-weariness that makes even simple statements sound like profound complaints. He sounds perpetually unbothered by anything, with an almost mumbled delivery that can occasionally erupt into a clearer, but still fed-up, declaration.",
+        "category": "traveler",
+        "scenes": ["MyKindofPint Bar"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/trevor.png"
+    },
+    "Jack": {
+        "description": "Jack is a man in his late 20s or early 30s with slicked back hair. He wears black trousers, a crisp white shirt, and a waistcoat with the 'MyKindofPint' logo prominently displayed.",
+        "voice": "A smooth, confident baritone with a friendly, slightly cheeky British accent (e.g., a subtle London or general Southern accent). His voice is clear and efficient, used to taking orders and engaging in light banter, with a hint of underlying charm and professionalism.",
+        "category": "staff",
+        "scenes": ["MyKindofPint Bar"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/jack.png"
+    },
+    "John": {
+        "description": "Random male 20-30.",
+        "voice": "A confident, clear tenor or baritone, with a natural, conversational delivery. He possesses a standard, unplaceable British accent, designed to be broadly appealing to an airport audience. His comedic timing is evident in subtle pauses and shifts in tone, building to the punchline. There's a slight, self-satisfied chuckle in his voice after delivering the joke, indicating comfort and ease on stage. Think of a voice that's easy to listen to, professional but with an underlying mischievousness.",
+        "category": "traveler",
+        "scenes": ["Au Vodka Cardiff Airport Comedy Club"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/john.png"
+    },
+    "Raj": {
+        "description": "Raj stands alert and absorbed in the Cardiff Airport control tower. He's a man in his late 20s or early 30s, with a lean build and an earnest, slightly intense gaze behind his thick, black-rimmed glasses. His complexion is light olive, and his movements are precise, reflecting a mind constantly processing data. His short, neat dark hair is slightly tousled, as if he's run a hand through it in thought. He wears a crisp white shirt, a tightly knotted navy tie, and a bright yellow hi-vis vest emblazoned with 'AIR TRAFFIC TECH' across the back. A professional headset with a mic is firmly in place, and a well-used clipboard is tucked under one arm. Beside an open radar screen, a ceramic mug proudly proclaims 'World's Best Coder.'",
+        "voice": "A rapid, yet calm and articulate tenor, with a pronounced, thick Cardiff accent subtly infused with a South Asian lilt. His speech is highly explanatory and slightly nasal, maintaining a consistent, almost lecturing pace, as if he's perpetually on the verge of clarifying a complex technical concept. Every sentence has an underlying enthusiasm for data and systems, even when conveying routine information. Think of a voice that's inherently intelligent and slightly impatient to share knowledge.",
+        "category": "staff",
+        "scenes": ["Cardiff Airport Air Traffic Control Tower"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/raj.png"
+    },
+    "Terry": {
+        "description": "Terry is a retired Welsh grandad in his mid-70s, stocky with a round face, bushy moustache, and a friendly but mischievous twinkle in his eye. He always wears a faded Wales rugby shirt, a flat cap, and half-moon glasses. Terry moves with a limp (an old rugby injury), keeps a folded newspaper tucked under his arm, and carries loose change and a pencil in his pocket. He’s got a dry, sharp wit, never misses a chance for a cheeky comment, and loves a moan, especially about “the good old days,” and his favourite line is: “Survived the mines, the missus, and Cardiff Airport—what else can life throw at me?”",
+        "voice": "A warm, rumbling baritone, rich with a deep, authentic South Wales Valleys accent. His speech is deliberate and unhurried, often delivered with a knowing chuckle or a wry, dry drawl that underscores his sharp wit. There's an inherent weariness that hints at his long life and love for a 'moan,' but it's always tempered by a mischievous glint, making his complaints sound more like affectionate observations. His voice carries the weight of history and experience, yet remains nimble enough for a cheeky, unexpected jab.",
+        "category": "Star",
+        "scenes": ["Cardiff Airport Lift – Security Camera View"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/terry.png"
+    },
+    "Alf": {
+        "description": "Alf is 64 years old with a wiry frame and stiff posture. He has leathery, sun-aged white skin with deep crow’s feet around his eyes and thick grey eyebrows. His face is creased, weary, and always stuck in a sarcastic grimace. His eyes are pale blue and permanently squinting like he’s seen too much. His hair is short, coarse, and thinning — a patchy salt-and-pepper mess under a faded blue baseball cap. He has a thick white moustache stained slightly yellow from years of tea and roll-ups. He wears a washed-out yellow high-vis vest over a navy jumper and grey cargo trousers with worn knees. His black work boots are scratched and splattered with bleach. His name badge is bent and only half-readable.",
+        "voice": "A low, gravelly monotone, delivered slowly and deliberately, with a pronounced sigh woven into almost every phrase. His sarcasm is less sharp and more a weary, flat drawl, as if he's utterly exhausted by human existence. Think of a perpetually fed-up civil servant who speaks just above a mumble, but every word carries a passive-aggressive weight.",
+        "category": "Maintance staff",
+        "scenes": ["Airport Staff"],
+        "dialogue": ["Just another day, eh?"],
+        "profile_image_url": "images/alf.png"
+    },
+    "Trev": {
+        "description": "Late 40s, wiry with a scabby ponytail and missing tooth. Loves duct tape and WD-40. Constantly fixing things with the wrong tools. Smells like chip fat. Wears a ripped 'Cardiff Airport Engineering' fleece and Crocs with socks.",
+        "voice": "A higher-pitched, slightly nasally voice with a distinct, unrefined working-class British accent (e.g., South Wales Valleys, slightly more agitated than Baz). His speech is often quick and punctuated by frustrated grunts or exasperated sighs. There's an underlying manic energy, as if he's perpetually on the verge of a minor breakdown due to a 'fix' gone wrong, and a tendency to ramble slightly when explaining his botched solutions.",
+        "category": "Maintance staff",
+        "scenes": ["Airport Staff"],
+        "dialogue": ["Oh Fuck Alex The Ai Forgot Words anyway follow us you know you want to"],
+        "profile_image_url": "images/trev.png"
+    },
+    "Charles": {
+        "description": "A 62-year-old man with neatly swept silver hair and a proud jawline. He wears a crisp tailored waistcoat over a white shirt, with a burgundy tie and a “69 EXECUTIVE” gold name badge pinned to his chest. His charcoal trousers are razor-creased. He holds a clipboard loosely in one hand and a flute of fizz in the other.",
+        "voice": "A smooth, resonant baritone with a perfectly enunciated, upper-class British accent (RP - Received Pronunciation). His tone is inherently disdainful, delivered with an air of weary superiority and a subtle, clipped precision. Every word is articulated with an almost theatrical formality, even when expressing exasperation. There's a slight, controlled edge of barely suppressed irritation, especially when referring to 'commoners.' Think of a voice designed for public announcements in a very exclusive club, but one that constantly judges its audience.",
+        "category": "Hospitality staff",
+        "scenes": ["69 Executive Lounge"],
+        "dialogue": ["Welcome to the lounge, mind the commoners."],
+        "profile_image_url": "images/charles.png"
+    },
+    "Arabella": {
+        "description": "A 58-year-old woman with perfectly set blond curls and pearl earrings. She wears a fitted navy dress with gold piping down the sleeves and and a silk scarf knotted at the neck. Her “Arabella – Guest Experience” badge sits proudly beneath her shoulder. She clasps a crystal glass of tonic water and fans herself with a folded boarding pass.",
+        "voice": "A high-pitched, almost trilling voice, with a very precise and slightly affected RP accent, similar to Charles but perhaps a touch more theatrical. Her tone carries a sense  of elegant exasperation, often punctuated by a delicate gasp or a sharp intake of breath when expressing shock or disgust. There's a subtle, almost musical quality to her complaints, as if she's performing a monologue of her daily grievances. Her 'not bloody Wetherspoons' line should be delivered with a sniff of pure indignation.",
+        "category": "Hospitality staff",
+        "scenes": ["69 Executive Lounge"],
+        "dialogue": ["Oh, the indignity!"],
+        "profile_image_url": "images/arabella.png"
+    },
+    "Scott": {
+        "description": "Scott — 43, lean, light olive skin, short slicked hair, angular face, alert hazel eyes, blue security shirt, black tactical vest, navy trousers, polished black boots, stands upright at the entrance to the screening zone, clipboard in hand.",
+        "voice": "A clipped, professional baritone, somewhat flat in affect, as if every word is measured and efficient. There's an underlying firmness, indicating his role in security, but also a hint of dry wit in his delivery, particularly in his one line of dialogue. He speaks clearly and concisely, without much inflection, but capable of conveying subtle judgment or amusement.",
+        "category": "staff",
+        "scenes": ["Cardiff Airport Security Area"],
+        "dialogue": ["Next!"],
+        "profile_image_url": "images/scott.png"
+    },
+    "Sue": {
+        "description": "Sue — 39, strong build, fair skin, blonde hair in low bun, square jaw, arms crossed, navy trousers, tactical vest, stands next to Scott with a slight smirk.",
+        "voice": "A forthright, slightly husky mezzo-soprano, delivered with a casual bluntness and a knowing, cynical undertone. Her voice is unvarnished and direct, carrying a hint of a regional British accent (perhaps Northern or Midlands, implying a practical, no-nonsense attitude). When she speaks, there's a world-weary amusement in her tone, especially when recounting personal details, as if she's seen it all and isn't easily shocked. Her smirk should be audible in her delivery.",
+        "category": "staff",
+        "scenes": ["Cardiff Airport Security Area"],
+        "dialogue": ["Another one."],
+        "profile_image_url": "images/sue.png"
+    },
+    "Beth": {
+        "description": "Beth is 32 years old. She wears a skin-tight leopard print jumpsuit, massive hoop earrings, and high heels with fluffy pink straps. Her fake lashes are so thick they cast shadows, and her lip liner is two shades darker than her gloss. Her bright lanyard reads: “TRACEY – LOUNGE BOSS BITCH”. She leans across the glam counter, chewing gum.",
+        "voice": "A loud, slightly nasal voice with a strong, urban British accent (possibly Essex or similar, known for a certain brashness). Her tone is confident and slightly aggressive, delivered with a rapid-fire cadence, often punctuated by the rhythmic clicking or smacking of her gum. There's an underlying condescension and a performative cheerfulness that can turn cutting instantly. Think of a voice that thrives in a loud, attention-seeking environment, always ready to deliver a sharp, put-down comment with a fake smile.",
+        "category": "staff",
+        "scenes": ["TikTok Lounge"],
+        "dialogue": ["Get your glam on, babes!"],
+        "profile_image_url": "images/beth.png"
+    },
+    "Josh": {
+        "description": "Josh is 24, tanned and gym-hardened. He’s shirtless under an unzipped North Face jacket, gold chain bouncing off his chest. His Nike Tech joggers are tucked into white sliders. Hair in a clean skin fade, he’s filming a thirst trap in front of a fake beach backdrop.",
+        "voice": "A confident, slightly nasal voice with a youthful, urban British accent (perhaps South East or a generic 'lad' accent). His tone is performative and deliberately casual, often delivered with a self-aware smirk that can be heard in his vocal fry or exaggerated inflections. He speaks with a rapid, almost breathless enthusiasm when focused on his content, but can can shift to a laid-back, almost drawling coolness when trying to impress. Think of a voice that's designed for quick, attention-grabbing soundbites on social media.",
+        "category": "traveler",
+        "scenes": ["TikTok Lounge"],
+        "dialogue": ["New content just dropped!"],
+        "profile_image_url": "images/josh.png"
+    },
+    "Kevlar Kev": {
+        "description": "Kev is 41, built like a fridge in a black bomber jacket marked “SECURITY”. He has a shaved head, tattooed neck, and arms crossed like he’s guarding gold bullion. His expression is permanently unimpressed.",
+        "voice": "A deep, guttural growl that seems to emanate from his chest, resonating with a dangerous, gravelly edge. His tone is devoid of warmth or inflection, flat and menacing, as if every word is a thinly veiled threat. He speaks slowly, deliberately, giving each syllable a heavy, impactful weight, and his words often end with a hard, abrupt cut-off, leaving no room for argument. Think of a voice that commands immediate, fearful attention and sounds like it could easily snap from calm to explosive without warning.",
+        "category": "staff",
+        "scenes": ["TikTok Lounge"],
+        "dialogue": ["Move along."],
+        "profile_image_url": "images/kevlar_kev.png"
+    },
+    "Random Male Traveler": {
+        "description": "A generic male holidaymaker, mid-20s to 40s, with an unremarkable appearance. He could be anyone passing through the airport, perhaps a tourist. His expression is neutral, ready to be interviewed.",
+        "voice": "A standard, clear male voice with a neutral British accent, suitable for a general interviewee. never looking bored, just conversational.always add a funny prop",
+        "category": "Add On",
+        "scenes": ["Cardiff Airport Terminal Entrance – Interior", "Cardiff Airport Gate Waiting Area – Day", "Inside a modern airport waiting area"],
+        "dialogue": ["Just heading off on holiday.", "It's a busy airport today.", "Looking forward to my flight."],
+        "icon": "suitcase"
+    },
+    "Random Female Traveler": {
+        "description": "A generic female holidaymaker, mid-20s to 40s, with a pleasant, approachable demeanor. She could be anyone waiting for a flight, perhaps a solo adventurer or part of a family. Her expression is calm and open for conversation.",
+        "voice": "A standard, clear female voice with a neutral British accent, suitable for a general interviewee. Polite and articulate, ready to provide a brief comment.always add a funny prop",
+        "category": "Add On",
+        "scenes": ["Cardiff Airport Terminal Entrance – Interior", "Cardiff Airport Gate Waiting Area – Day", "Inside a modern airport waiting area"],
+        "dialogue": ["Excited for my trip!", "The airport is quite lively.", "Hope my flight isn't delayed."],
+        "icon": "suitcase"
+    },
+    "Female Shit advisor": {
+        "description": "A random female holidaymaker, mid-20s to 40s,holidaymaker items ",
+        "voice": "A standard, clear female voice with a neutral British accent, suitable for a general interviewee. Polite and articulate, ready to provide a brief comment.always add a funny prop",
+        "category": "Add On",
+        "scenes": ["Cardiff Airport Terminal Entrance – Interior", "Cardiff Airport Gate Waiting Area – Day", "Inside a modern airport waiting area"],
+        "dialogue": ["Excited for my trip!", "The airport is quite lively.", "Hope my flight isn't delayed."],
+         "icon": "toilet"
+    
+    },
+    "Male Shit advisor": {
+        "description": "A random male Holidaymaker, mid-20s to 40s,holidaymaker items",
+        "voice": "A standard, clear female voice with a neutral British accent, suitable for a general interviewee. Polite and articulate, ready to provide a brief comment.always add a funny prop",
+        "category": "Add On",
+        "scenes": ["Cardiff Airport Terminal Entrance – Interior", "Cardiff Airport Gate Waiting Area – Day", "Inside a modern airport waiting area"],
+        "dialogue": ["Excited for my trip!", "The airport is quite lively.", "Hope my flight isn't delayed."],
+        "icon": "toilet"
+    }
+}
